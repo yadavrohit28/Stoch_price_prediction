@@ -12,14 +12,14 @@ from sklearn import metrics
 
 import warnings
 warnings.filterwarnings('ignore')
-df = pd.read_csv('/content/Tesla.csv')
+df = pd.read_csv('/content/adani.csv')
 df.head()
 df.shape
 df.describe()
 df.info()
 plt.figure(figsize=(15,5))
 plt.plot(df['Close'])
-plt.title('Tesla Close price.', fontsize=15)
+plt.title('adani Close price.', fontsize=15)
 plt.ylabel('Price in dollars.')
 plt.show()
 df.head()
